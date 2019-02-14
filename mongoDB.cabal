@@ -1,5 +1,5 @@
 Name:           mongoDB
-Version:        2.4.0.0
+Version:        2.4.0.1
 Synopsis:       Driver (client) for MongoDB, a free, scalable, fast, document
                 DBMS
 Description:    This package lets you connect to MongoDB servers and
@@ -26,7 +26,8 @@ Library
   Build-depends:      array -any
                     , base <5
                     , binary -any
-                    , bson >= 0.3 && < 0.4
+                    , bson == 0.3.2.8
+                    , deepseq
                     , text
                     , bytestring -any
                     , containers -any
